@@ -1,0 +1,67 @@
+:root{
+	--bg-btn:  #03DAC5;
+	--bg-game: #3700B3;
+	--bg-game-opacity: #6200EE;
+}
+.bg-game{
+	background-color: var(--bg-game);
+}
+.bg-game-opacity{
+	background-color: var(--bg-game-opacity);
+}
+.btn-propi{
+	background-color: var(--bg-btn);
+	border: 2px solid var(--bg-btn);
+	color: #000;
+}
+.btn-propi:hover{
+	cursor: pointer !important;
+	border: 2px solid var(--bg-btn);
+	background-color: #fff;
+}
+.btn-disable{
+	background-color: #CFD8DC;
+	border: 2px solid #263238;
+}
+.border-box{
+	border: 2px solid var(--bg-game);
+	border-radius: 10px;
+}
+.circle-num{
+	background-color: var(--bg-btn);
+	border-radius: 50%;
+	width: 40px;
+	height: 40px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-weight: bolder;
+}
+.active{
+	background-color: var(--bg-game);
+	color: #fff;
+}
+.correct{
+	background-color: #067302;
+	border: 2px solid  #055902;
+	color: #fff;
+}
+.incorrect{
+	background-color: #F20C0C;
+	border: 2px solid #730202;
+	color: #fff;
+}
+.answer{
+	margin: 0 0 10px 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 10px 0;
+}
+.check-respuesta{
+	opacity: 0;
+}
+.answer p{
+	margin: 0;
+	pointer-events: none;
+}
