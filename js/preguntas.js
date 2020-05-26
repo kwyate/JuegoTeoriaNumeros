@@ -119,7 +119,7 @@ const questions = () =>{
 			}, 1000);
 		}
 		if(numquestion<10){
-			document.querySelector(".texto").innerText = preguntas[numquestion].texto;
+			document.querySelector(".texto").innerHTML = preguntas[numquestion].texto;
 			circle_question[numquestion-1].classList.remove("active")
 			circle_question[numquestion].classList.add("active")
 			box_answer.map(( element, index)=>{
